@@ -39,7 +39,7 @@ public class CategoryActivity extends AppCompatActivity {
         String categoryName = getIntent().getStringExtra("categoryName");
 
         getSupportActionBar().setTitle(categoryName);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(tru
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getProducts(catId);
 
         GridLayoutManager layoutManager = new GridLayoutManager(this, 2);
